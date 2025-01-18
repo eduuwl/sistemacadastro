@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import styles from "./clientComponent.module.css";
 import { Client } from "../types/client";
-import { formatPhone, addNewClient, formatDate } from "../utils/ClientUtils";
-import { exportToExcel } from "../utils/ExcelUtils";
+import { formatPhone, addNewClient, formatDate } from "../utils/clientUtils";
+import { exportToExcel } from "../utils/excelUtils";
 import logo from "../assets/logo.png";
 
 const Clients: React.FC = () => {
