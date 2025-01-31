@@ -1,6 +1,6 @@
 import * as XLSX from "xlsx";
 import { Client } from "../types/client";
-import { formatDate } from "./ClientUtils";
+import { formatDate } from "./clientUtils";
 
 /**
  * Exporta uma lista de clientes para um arquivo Excel.
